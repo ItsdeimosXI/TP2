@@ -51,6 +51,10 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                [
+                'pluralize' => false,
+                'class' => 'yii\rest\UrlRule', 
+                ]
             ],
         ],
     ],
