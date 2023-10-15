@@ -18,7 +18,7 @@ services:
           USER: ${DATABASE_USER}
           DB: ${DATABASE_NAME}
           HOST: ${DATABASE_HOST}
-      
+          PHP_USER_ID: 1000
     volumes:
       - ./backend/composer/cache:/root/.composer/cache:delegated
       - ./backend/basic:/app:delegated
