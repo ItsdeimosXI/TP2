@@ -51,6 +51,11 @@ $config = [
             ],
         ],
     ],
+    'modules' => [
+        'apiv1' => [
+            'class' => 'app\modules\apiv1\apiv1Module',
+        ],
+    ],
     'params' => $params,
 ];
 
